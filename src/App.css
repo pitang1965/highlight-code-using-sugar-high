@@ -1,0 +1,40 @@
+.App-header {
+  background-color: #dddddd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #222222;
+}
+
+.App code {
+  margin-top: 1rem;
+  border: 1px solid #333333;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+  background-color: #193549;
+  color: #eeeeee;
+  width: 90vw;
+  line-height: 3rem;
+}
+
+.sh__class {
+  color: #66F2FF;
+}
+.sh__identifier {
+  color: #FFF2D0;
+}
+.sh__sign {
+  color: #E1EFFF;
+}
+.sh__string {
+  color: #A5FF7E;
+}
+.sh__keyword {
+  color: #FF902F;
+}
+.sh__comment {
+  color: #0088FF;
+}
